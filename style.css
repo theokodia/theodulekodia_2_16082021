@@ -52,10 +52,22 @@ nav li a
     margin: 10px;
     text-decoration: none;
 }
-form
+.conflex
 {
     display: flex;
+    width: 260px;
+    height: 38px;
     margin-bottom: 25px;
+    background-color: #F2F2F2;
+    border-radius: 10px 10px;
+}
+.itemform
+{
+    width: 25px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
 }
 .item0
 {
@@ -231,6 +243,12 @@ form
 {
     display: flex;
     margin-top: 25px;
+    font-family: raleway;
+}
+.iteminfo
+{
+    margin-right: 10px;
+    color: #0065FC;
 }
 .hebergconteneur
 {
@@ -245,7 +263,7 @@ form
   align-content: flex-start;
   flex-wrap: wrap;
   width: 635px;
-  height: 462px;
+  height: 440px;
   background-color:#f2f2f2;  
   border-radius: 15px 15px 15px 15px; 
 }
@@ -260,20 +278,20 @@ form
 {
     width: 175px;
     height: 128px;
-    margin: 0;
-    padding: 2px;
+    margin: 4px;
+    padding: 4px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 22px;
     margin-bottom: 25px;
     font-family: raleway;
-    font-size: 12px;
+    font-size: 10px;
     background:178px;
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
 }
 .elementflex1 img
 {
-    width: 170px;
+    width: 174px;
     height: 75px;
     border-radius: 15px 15px 0px 0px; 
 }
@@ -281,20 +299,20 @@ form
 {
     width: 175px;
     height: 128px;
-    margin: 0;
-    padding: 2px;
-    margin-left: 25px;
+    margin: 4px;
+    padding: 4px;
     text-align: left;
+    margin-left: 22px;
     margin-bottom: 25px;
     font-family: raleway;
-    font-size: 12px;
-    background: 178px;
+    font-size: 10px;
+    background:178px;
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
 }
 .elementflex2 img
 {
-    width: 170px;
+    width: 174px;
     height: 75px;
     border-radius: 15px 15px 0px 0px; 
 }
@@ -302,20 +320,20 @@ form
 {
     width: 175px;
     height: 128px;
-    margin: 0;
-    padding: 2px;
+    margin: 4px;
+    padding: 4px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 22px;
     margin-bottom: 25px;
     font-family: raleway;
-    font-size: 12px;
-    background: 178px;
+    font-size: 10px;
+    background:178px;
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
 }
 .elementflex3 img
 {
-    width: 170px;
+    width: 174px;
     height: 75px;
     border-radius: 15px 15px 0px 0px; 
 }
@@ -323,19 +341,20 @@ form
 {
     width: 175px;
     height: 128px;
-    margin: 0;
-    padding: 2px;
+    margin: 4px;
+    padding: 4px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 22px;
+    margin-bottom: 25px;
     font-family: raleway;
-    font-size: 12px;
-    background: 178px;
+    font-size: 10px;
+    background:178px;
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
 }
 .elementflex4 img
 {
-    width: 170px;
+    width: 174px;
     height: 75px;
     border-radius: 15px 15px 0px 0px; 
 }
@@ -343,19 +362,20 @@ form
 {
     width: 175px;
     height: 128px;
-    margin: 0;
-    padding: 2px;
+    margin: 4px;
+    padding: 4px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 22px;
+    margin-bottom: 25px;
     font-family: raleway;
-    font-size: 12px;
-    background: 178px;
+    font-size: 10px;
+    background:178px;
     background-color: white;
-    border-radius: 15px 15px 15px 15px;  
+    border-radius: 15px 15px 15px 15px; 
 }
 .elementflex5 img
 {
-    width: 170px;
+    width: 174px;
     height: 75px;
     border-radius: 15px 15px 0px 0px; 
 }
@@ -363,19 +383,20 @@ form
 {
     width: 175px;
     height: 128px;
-    margin: 0;
-    padding: 2px;
+    margin: 4px;
+    padding: 4px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 22px;
+    margin-bottom: 25px;
     font-family: raleway;
-    font-size: 12px;
-    background: 178px;
+    font-size: 10px;
+    background:178px;
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
 }
 .elementflex6 img
 {
-    width: 170px;
+    width: 174px;
     height: 75px;
     border-radius: 15px 15px 0px 0px; 
 }
@@ -389,9 +410,9 @@ form
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 265px;
-  height: 460px;
-  margin-left: 25px;
+  width: 260px;
+  height: 440px;
+  margin-left: 20px;
   background-color:#f2f2f2; 
   border-radius: 15px 15px 15px 15px; 
 }
@@ -399,75 +420,118 @@ form
 {
     display: flex;
     justify-content: space-around;
-    height: 94px;
-    margin: 0;
-    padding: 0;
+    width: 212px;
+    height: 84px;
+    margin: 8px;
+    padding: 4px;
     font-family: raleway;
-    font-size: 12px;
-    background: 105px;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
     background-color: white;
-    border-radius: 15px 15px 15px 15px 
+    border-radius: 15px 15px 15px 15px;
 }
 .elementflex10 img
 {
-    width: 90px;
+    width: 84px;
     height: 84px;
-    padding: 4px;
-    margin: 2px;
-    margin-left: 14px;
-    border-radius: 15px 15px 0px 0px; 
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+    border-radius: 15px 0px 0px 15px; 
+}
+.item40
+{
+    width: 105px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: left;
+}
+.item40a
+{
+    display: flex;
+    width: 60px;
+    height: 15px;
+}
+.item40b
+{
+    width: 13px;
+    height: 12px;
+    color: #0065FC;
 }
 .elementflex11
 {
     display: flex;
     justify-content: space-around;
-    height: 94px;
-    margin: 0;
-    padding: 0;
+    width: 212px;
+    height: 84px;
+    margin: 8px;
+    padding: 4px;
     font-family: raleway;
-    font-size: 12px;
-    background: 110px;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
     background-color: white;
-    border-radius: 15px 15px 15px 15px  
+    border-radius: 15px 15px 15px 15px 
 }
 .elementflex11 img
 {
-    width: 98px;
+    width: 84px;
     height: 84px;
-    padding: 4px;
-    margin: 2px;
-    margin-left: 14px;
-    border-radius: 15px 15px 0px 0px;  
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+    border-radius: 15px 0px 0px 15px; 
+} 
+.item50
+{
+    width: 105px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: left;
 }
 .elementflex12
 {
     display: flex;
     justify-content: space-around;
-    height: 94px;
-    margin: 0;
-    padding: 0;
+    width: 212px;
+    height: 84px;
+    margin: 8px;
+    padding: 4px;
     font-family: raleway;
-    font-size: 12px;
-    background: 105px;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
     background-color: white;
     border-radius: 15px 15px 15px 15px 
 }
 .elementflex12 img
 {
-    width: 98px;
+    width: 84px;
     height: 84px;
-    padding: 4px;
-    margin: 2px;
-    margin-left: 14px;
-    border-radius: 15px 15px 0px 0px;  
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+    border-radius: 15px 0px 0px 15px; 
+} 
+.item60
+{
+    width: 105px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: left;
 }
 .elementflex00
 {
     width: 210px;
     height: 25px;
-    margin-left: 15px;
+    margin-left: 12px;
     font-family: raleway;
     font-size: 14px;
+}
+h4
+{
+    margin-left: 10px;
 }
 .conteneurflex3parent
 {

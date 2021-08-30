@@ -5,17 +5,12 @@
 }
 .conteneurPageprincipale
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;  
+    margin-left: 280px; 
+    margin-right: 200px; 
 }
 header 
 {
-    display: flex;
-    flex-direction: column;
-    width: 900px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     font-family: raleway;
     font-size: 15px; 
 }
@@ -28,17 +23,23 @@ header
 .elemenitem1
 {
     font-family: raleway;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .elemenitem2
 {
-    margin-bottom: 10px;
+    width: 250px;
+    height: 10px;
+    font-family: raleway;
+    font-size: 12px;
+    margin-bottom: 20px;
 }
 nav
 {
     display: flex; 
     justify-content: flex-end;
     flex-wrap: nowrap;
+    margin-right: 110px;
 }
 nav ul
 {
@@ -52,59 +53,63 @@ nav li a
     margin: 10px;
     text-decoration: none;
 }
+.itemnav1, .itemnav3
+{
+    color: #0065FC;
+}
 .conflex
 {
     display: flex;
     width: 260px;
-    height: 38px;
-    margin-bottom: 25px;
-    background-color: #F2F2F2;
+    margin-bottom: 40px;
+    background-color: #f2f2f2;
+    border: 2px solid #F2F2F2;
     border-radius: 10px 10px;
+}
+input
+{
+    border: 1px solid #F2F2F2;
 }
 .itemform
 {
-    width: 25px;
-    height: 40px;
-    position: relative;
-    top: 10px;
+    padding: 8px;
     margin-left: 10px;
+    border-radius: 50% 50%;
 }
 .item0
 {
-    width: 160px;
-    padding: 5px;
+    padding: 8px;
     margin-left: 2px;
-    background: 162px;
-    background-color:white;
+    background: white;
     border-radius: 0px 0px 0px 0px;
 }
 .elemenflexsearch
 { 
-    width: 90px;
-    padding: 5px;
-    background: 95px;
+    padding: 10px;
     color: white;
     background-color: #0065FC;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
 }
 .filtercontflexparent
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
     font-family: raleway;
 }
 .item1
 {
-    display: flex;
+    width: 60px;
+    height: 30px;
 }
 .item2
 {
-    display: flex;
-    width: 130px;
-    padding: 0px;
-    margin: 0px;
+    padding: 12px;
+    padding-left: 0;
     margin-left: 25px;
-    background: 140px;
-    background-color: #f2f2f2;
-    border-radius: 10px 10px 10px 10px;    
+    border: 3px solid #F2F2F2;
+    border-radius: 30px 30px;    
 }
 .item2 a:hover
 {
@@ -112,34 +117,24 @@ nav li a
 }
 .item2a
 {
-    width: 25px;
-    padding: 6px;
-    margin: 0px;
-    background: 25px;
+    width: 30px;
+    padding: 12px;
+    background: 30px;
     color: #0065FC;
     background-color: #bbdefb;
-    border-radius: 10px 10px 10px 10px;    
+    border-radius: 50% 50% ;    
 }
 .item2b
-{
-    width: 130px;
-    padding: 0px;
-    margin: 0px;
-    text-align:center;
-    margin-top: 5px;
-    background: 130px;
-    border-radius: 10px 10px 10px 10px;  
+{  
+    padding-left: 10px;
 }
 .item3
 {
-    display: flex;
-    width: 95px;
-    padding: 0px;
-    margin: 0px;
+    padding: 12px;
+    padding-left: 0;
     margin-left: 25px;
-    background: 140px;
-    background-color: #f2f2f2;
-    border-radius: 10px 10px 10px 10px;   
+    border: 3px solid #F2F2F2;
+    border-radius: 30px 30px;    
 }
 .item3 a:hover
 {
@@ -147,34 +142,24 @@ nav li a
 }
 .item3a
 {
-    width: 25px;
-    padding: 6px;
-    margin: 0px;
-    background: 25px;
+    width: 30px;
+    padding: 12px;
+    background: 30px;
     color: #0065FC;
     background-color: #bbdefb;
-    border-radius: 10px 10px 10px 10px;   
+    border-radius: 50% 50% ;    
 }
 .item3b
 {
-    width: 130px;
-    padding: 0px;
-    margin: 0px;
-    text-align:center;
-    margin-top: 5px;
-    background: 130px;
-    border-radius: 10px 10px 10px 10px;  
+    padding-left: 10px; 
 }
 .item4
 {
-    display: flex;
-    width: 130px;
-    padding: 0px;
-    margin: 0px;
+    padding: 12px;
+    padding-left: 0;
     margin-left: 25px;
-    background: 140px;
-    background-color: #f2f2f2;
-    border-radius: 10px 10px 10px 10px;    
+    border: 3px solid #F2F2F2;
+    border-radius: 30px 30px;    
 }
 .item4 a:hover
 {
@@ -182,34 +167,24 @@ nav li a
 }
 .item4a
 {
-    width: 25px;
-    padding: 6px;
-    margin: 0px;
-    background: 25px;
+    width: 30px;
+    padding: 12px;
+    background: 30px;
     color: #0065FC;
     background-color: #bbdefb;
-    border-radius: 10px 10px 10px 10px;  
+    border-radius: 50% 50% ;   
 }   
 .item4b
 {
-    width: 130px;
-    padding: 0px;
-    margin: 0px;
-    text-align:center;
-    margin-top: 5px;
-    background: 130px;
-    border-radius: 10px 10px 10px 10px; 
+    padding-left: 10px;
 }
 .item5
 {
-    display: flex;
-    width: 170px;
-    padding: 0px;
-    margin: 0px;
+    padding: 12px;
+    padding-left: 0;
     margin-left: 25px;
-    background: 170px;
-    background-color: #f2f2f2;
-    border-radius: 10px 10px 10px 10px;  
+    border: 3px solid #F2F2F2;
+    border-radius: 30px 30px;    
 }
 .item5 a:hover
 {
@@ -217,23 +192,16 @@ nav li a
 }
 .item5a
 {
-    width: 25px;
-    padding: 6px;
-    margin: 0px;
-    background: 25px;
+    width: 30px;
+    padding: 12px;
+    background: 30px;
     color: #0065FC;
     background-color: #bbdefb;
-    border-radius: 10px 10px 10px 10px;  
+    border-radius: 50% 50% ;   
 }
 .item5b
 {
-    width: 160px;
-    padding: 0px;
-    margin: 0px;
-    text-align:center;
-    margin-top: 5px;
-    background: 100px;
-    border-radius: 10px 10px 10px 10px; 
+    padding-left: 10px;
 }
 .item2, .item3, .item4, .item5, a
 {
@@ -242,13 +210,20 @@ nav li a
 .elemenitem5
 {
     display: flex;
-    margin-top: 25px;
     font-family: raleway;
+    margin-top: 50px;
 }
-.iteminfo
-{
-    margin-right: 10px;
+.inteminfo
+{ 
+    width: 30px;
+    padding: 12px;
+    background: 30px;
     color: #0065FC;
+    border-radius: 50% 50% ;    
+}
+.itemk
+{
+    margin-left: 10px;
 }
 .hebergconteneur
 {

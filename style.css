@@ -556,7 +556,7 @@ h4
 {
     width: 200px;
     height: 155px;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-bottom: 35px;
     text-align: left;
     font-family: raleway;
@@ -579,7 +579,7 @@ h4
 {
     width: 200px;
     height: 110px;
-    margin-left: 20px;
+    margin-left: 25px;
     text-align: left;
     font-family: raleway;
     font-size: 13px;
@@ -600,7 +600,7 @@ h4
 {
     width: 200px;
     height: 298px;
-    margin-left: 20px;
+    margin-left: 25px;
     text-align: left;
     font-family: raleway;
     font-size: 13px;
@@ -621,9 +621,9 @@ h4
 }
 .elementflex20
 {
-    width: 200px;
+    width: 220px;
     height: 120px;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-bottom: 35px;
     text-align: left;
     font-family: raleway;
@@ -633,7 +633,7 @@ h4
 }
 .elementflex20 img
 {
-    width: 200px;
+    width: 220px;
     height: 80px;
     margin-bottom: 15px;
     border-radius: 15px 15px 0px 0px;
@@ -644,9 +644,9 @@ h4
 }
 .elementflex21
 {
-    width: 200px;
+    width: 220px;
     height: 140px;
-    margin-left: 20px;
+    margin-left: 25px;
     text-align: left;
     font-family: raleway;
     font-size: 13px;
@@ -655,7 +655,7 @@ h4
 }
 .elementflex21 img
 {
-    width: 200px;
+    width: 220px;
     height: 96px;
     border-radius: 15px 15px 0px 0px;
 }

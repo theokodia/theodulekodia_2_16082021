@@ -20,6 +20,7 @@ header
 {
     width: 120px;
     font-family: raleway;
+    margin-bottom: 30px;
     font-size: 10px;
 }
 .elemenitem1
@@ -43,7 +44,6 @@ header
     align-items: flex-end;
     width: 130px;
     margin-left: 400px;
-    padding: 0;
     border: 2px solid #0065FC;
     border-bottom: 20px;
 }
@@ -53,6 +53,7 @@ nav
     justify-content: flex-end;
     flex-wrap: nowrap;
     width: 830px;
+    margin: 10px;
     background-color: beige;
     margin-left: 80px;
 }
@@ -60,6 +61,8 @@ nav ul
 {
     display: flex;
     list-style-type: none;
+    padding: 0;
+    margin: 10px;
     position: absolute;
     top: 10px;
 }
